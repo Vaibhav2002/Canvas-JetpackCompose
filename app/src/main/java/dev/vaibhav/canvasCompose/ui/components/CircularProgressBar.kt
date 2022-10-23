@@ -1,7 +1,7 @@
 package dev.vaibhav.canvasCompose.ui.components
 
 import androidx.compose.animation.animateColorAsState
-import androidx.compose.animation.core.FastOutSlowInEasing
+import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Canvas
 import androidx.compose.runtime.Composable
@@ -24,7 +24,7 @@ fun CircularProgressBar(
 ) {
     val color = animateColorAsState(
         targetValue = progress.getColorFromProgress(colors),
-        animationSpec = tween(2000, easing = FastOutSlowInEasing)
+        animationSpec = tween(1000, easing = LinearEasing)
     )
     val angle = 360f * progress
     Canvas(modifier = modifier) {
