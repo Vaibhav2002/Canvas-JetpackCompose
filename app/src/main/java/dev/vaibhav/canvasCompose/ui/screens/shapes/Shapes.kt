@@ -1,4 +1,4 @@
-package dev.vaibhav.canvasCompose.ui.components
+package dev.vaibhav.canvasCompose.ui.screens.shapes
 
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size

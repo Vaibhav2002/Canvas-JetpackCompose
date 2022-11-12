@@ -1,4 +1,4 @@
-package dev.vaibhav.canvasCompose.ui.screens
+package dev.vaibhav.canvasCompose.ui.screens.circularProgress
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.AnimationVector1D
@@ -15,8 +15,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import dev.vaibhav.canvasCompose.ui.components.CircularProgressBar
-import dev.vaibhav.canvasCompose.ui.components.ProgressColors
 import kotlinx.coroutines.launch
 
 @Composable

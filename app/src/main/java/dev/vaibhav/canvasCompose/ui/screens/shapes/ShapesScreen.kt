@@ -1,4 +1,4 @@
-package dev.vaibhav.canvasCompose.ui.screens
+package dev.vaibhav.canvasCompose.ui.screens.shapes
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
@@ -11,10 +11,10 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import dev.vaibhav.canvasCompose.ui.components.arc
-import dev.vaibhav.canvasCompose.ui.components.circle
-import dev.vaibhav.canvasCompose.ui.components.rectangle
-import dev.vaibhav.canvasCompose.ui.components.square
+import dev.vaibhav.canvasCompose.ui.screens.shapes.arc
+import dev.vaibhav.canvasCompose.ui.screens.shapes.circle
+import dev.vaibhav.canvasCompose.ui.screens.shapes.rectangle
+import dev.vaibhav.canvasCompose.ui.screens.shapes.square
 
 @Composable
 fun ShapesScreen(

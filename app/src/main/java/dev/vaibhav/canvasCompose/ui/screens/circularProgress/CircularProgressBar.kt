@@ -1,4 +1,4 @@
-package dev.vaibhav.canvasCompose.ui.components
+package dev.vaibhav.canvasCompose.ui.screens.circularProgress
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.LinearEasing
@@ -9,6 +9,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
+import dev.vaibhav.canvasCompose.ui.screens.shapes.arc
 
 data class ProgressColors(
     val start: Color,
