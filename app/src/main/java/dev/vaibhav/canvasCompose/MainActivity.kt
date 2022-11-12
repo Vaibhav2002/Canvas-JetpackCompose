@@ -10,6 +10,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import dev.vaibhav.canvasCompose.ui.screens.androidLogo.AndroidLogoScreen
 import dev.vaibhav.canvasCompose.ui.screens.clock.Clock
 import dev.vaibhav.canvasCompose.ui.screens.clock.ClockScreen
 import dev.vaibhav.canvasCompose.ui.theme.CanvasComposeTheme
@@ -20,7 +21,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             CanvasComposeTheme {
-                ClockScreen(modifier = Modifier.fillMaxSize())
+                AndroidLogoScreen(modifier = Modifier.fillMaxSize())
             }
         }
     }
