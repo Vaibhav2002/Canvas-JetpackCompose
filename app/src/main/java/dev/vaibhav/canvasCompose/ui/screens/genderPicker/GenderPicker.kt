@@ -36,7 +36,7 @@ fun GenderPickerPreview() {
 @Composable
 fun GenderPicker(
     modifier: Modifier = Modifier,
-    scalingFactor: Float = 12f,
+    scalingFactor: Float = 8f,
     distanceBetween: Dp = 54.dp,
     maleColors:List<Color> = listOf(Color.Blue, Color.Magenta),
     femaleColors:List<Color> = listOf(Color.Red, Color.Magenta),
