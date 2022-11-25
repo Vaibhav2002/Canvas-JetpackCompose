@@ -16,6 +16,7 @@ This project consists few screens (more to be added in future) for learning diff
 - **Transformations** - Screen with shows canvas transformations
 - **Gender Picker** - A Screen which lets user select one gender with a cool gradient fill animation
 - **Tic Tac Toe** - A simple Tic-Tac-Toe game.
+- **Image Reveal** - A Screen which reveals color of a part of an image.
 
 ### **Learnings from each screen** 📚:
 - **Shapes** - Drawing shapes
@@ -26,6 +27,7 @@ This project consists few screens (more to be added in future) for learning diff
 - **Transformations** - Using Canvas Transformations like translate, rotate and scale
 - **Gender Picker** - Drawing custom vector paths using Canvas Transformations and handling click events in Transformed Canvas
 - **Tic Tac Toe** - Path animations for multiple paths.
+- **Image Reveal** - Drawing images on Canvas. Using ColorFilters and Blend Modes.
 
 ### **Screenshots** 📸
 
@@ -34,3 +36,5 @@ This project consists few screens (more to be added in future) for learning diff
 | ![Shapes](images/shapesScreen.png)            | ![CircularProgessBar](images/CircularProgressScreen.png) | ![BallClicker](images/BallClickerScreen.png) |
 | ![AndroidLogo](images/AndroidLogoScreen.png)  | ![Clock](images/ClockScreen.png)                         | ![Path](images/PathScreen.png)               |
 | ![Transformations](images/transformation.gif) | ![Gender Picker](images/genderPicker.gif)                | ![TicTacToe](images/tictactoe.gif)           |
+| ![ImageReveal](images/image_reveal.gif)       |                                                          |                                              |
+

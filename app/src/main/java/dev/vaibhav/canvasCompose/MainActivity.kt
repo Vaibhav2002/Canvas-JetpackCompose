@@ -5,9 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.ui.Modifier
-import dev.vaibhav.canvasCompose.ui.screens.genderPicker.GenderPickerScreen
-import dev.vaibhav.canvasCompose.ui.screens.tictactoe.TicTacToe
-import dev.vaibhav.canvasCompose.ui.screens.tictactoe.TicTacToeScreen
+import dev.vaibhav.canvasCompose.ui.screens.imageReveal.ImageColorRevealScreen
 import dev.vaibhav.canvasCompose.ui.theme.CanvasComposeTheme
 
 class MainActivity : ComponentActivity() {
@@ -15,7 +13,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             CanvasComposeTheme {
-                TicTacToeScreen(modifier = Modifier.fillMaxSize())
+                ImageColorRevealScreen(modifier = Modifier.fillMaxSize())
             }
         }
     }
